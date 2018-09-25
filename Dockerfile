@@ -10,6 +10,9 @@ RUN apk add --no-cache --virtual=.build-deps \
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
+RUN apk add --no-cache \
+        git=2.18.0-r0
+
 RUN curl -sSL https://github.com/aktau/github-release/releases/download/${GITHUB_RELEASE_VERSION}/linux-amd64-github-release.tar.bz2 \
         | tar -xjf - -C /tmp \
     && mv /tmp/bin/linux/amd64/github-release /usr/local/bin \
