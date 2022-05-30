@@ -1,5 +1,4 @@
 # GitHub Release
-[![CircleCI](https://circleci.com/gh/final-gene/docker-hub-github-release/tree/master.svg?style=svg)](https://circleci.com/gh/final-gene/docker-hub-github-release/tree/master) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/62471936614746358f404aafcfa15cfb)](https://www.codacy.com/app/final-gene/docker-hub-github-release?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=final-gene/docker-hub-github-release&amp;utm_campaign=Badge_Grade)
 
 This is a image to run the [github-release](https://github.com/aktau/github-release).
 
