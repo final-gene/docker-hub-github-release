@@ -1,6 +1,8 @@
 # GitHub Release
 
-This is a image to run the [github-release](https://github.com/aktau/github-release).
+[![Docker build and publish](https://github.com/final-gene/docker-hub-github-release/actions/workflows/publish.yml/badge.svg)](https://github.com/final-gene/docker-hub-github-release/actions/workflows/publish.yml)
+
+This is an image to run the [github-release](https://github.com/aktau/github-release).
 
 ## Supported tags and respective Dockerfile links
 * `latest` [(Dockerfile)](https://github.com/finalgene/docker-hub-github-release/blob/master/Dockerfile)
